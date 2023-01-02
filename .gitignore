@@ -108,3 +108,6 @@ venv.bak/
 *.jpg
 *.jpeg
 *.pt
+
+# Ignore the output directory
+.api/

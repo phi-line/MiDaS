@@ -3,7 +3,7 @@ channels:
   - pytorch
   - defaults
 dependencies:
-  - nvidia::cudatoolkit=11.7
+  - nvidia::cuda-toolkit=11.7.1
   - python=3.10.8
   - pytorch::pytorch=1.13.0
   - torchvision=0.14.0
@@ -14,3 +14,5 @@ dependencies:
     - imutils==0.5.4
     - timm==0.6.12
     - einops==0.6.0
+    - fastapi==0.88.0
+    - uvicorn==0.20.0
